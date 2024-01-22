@@ -90,6 +90,8 @@ Route::get('/listCategoriPro/{id}', 'App\Http\Controllers\Api\ProductController@
 Route::get('/categoryProd', 'App\Http\Controllers\Api\CategoryProdutController@index');
 Route::get('/listActiveCategory', 'App\Http\Controllers\Api\CategoryProdutController@listActiveCategory');
 Route::get('/categoryProd/{id}', 'App\Http\Controllers\Api\CategoryProdutController@show');
+Route::get('/tWxaSh5KffstEpFpwkt67eGH+PRzI9/k44a/8jN6VLSqNM2nrE0MHoBjxffaC+qE/{email}', 'App\Http\Controllers\Api\UsuarioController@ValidateEmail');
+Route::post('/21HuCgOHJL0fETeSxzlNrJtx4hmQUVo9Pz8tfiT3AYXRe+0mcQrh5nu1fKJjQo7X/{id}', 'App\Http\Controllers\Api\UsuarioController@UpdatePassword');
 //TOCA PROTEGERLAS
 Route::get('/ventasProductos/{id}', 'App\Http\Controllers\Api\VentaProductosController@index');
 Route::get('/pbA0FFpmAliCAtO0JTBJwQF8qE08MRKRuL7oWx8z8BZO+uYa0O6lQ+d8MLPToX93/{id}', 'App\Http\Controllers\Api\VentaProductosController@index');
